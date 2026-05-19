@@ -40,7 +40,7 @@ msgstr " {0} :وجہ - "
 
 #: src/components/_common/GameRules.tsx:133
 msgid " - Repeated donations of resources or money to a military unit or country."
-msgstr "کسی عسکری گروہ یا ملک کو وسائل یا رقم کا بار بار عطیہ - "
+msgstr "کسی عسکری دستہ یا ملک کو وسائل یا رقم کا بار بار عطیہ - "
 
 #: src/components/_common/GameRules.tsx:131
 msgid " - Repeatedly tipping"

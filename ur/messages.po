@@ -100,12 +100,12 @@ msgstr "{0} گھنٹے"
 #. placeholder {1}: data.newPerK
 #: src/components/_user/notification/notification.frontConfig.tsx:1668
 msgid "{0} outbid you at ${1}/K"
-msgstr ""
+msgstr "${1}/K نے {0} پر آپ سے زیادہ بولی لگائی"
 
 #. placeholder {0}: data.userId && ( <UserUsername userId={data.userId} withAvatar withFlag /> )
 #: src/components/_user/notification/notification.frontConfig.tsx:509
 msgid "{0} proposed a new law <0/>"
-msgstr ""
+msgstr "{0} نے نیا قانون تجویز کیا"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
 #: src/components/_military/battle/RoundScore.tsx:55
@@ -148,7 +148,7 @@ msgstr "{registeredCount} {entityLabel} درج ہوئے"
 
 #: src/components/_military/battle/BattleTimeline.tsx:79
 msgid "{roundsToWin} Rounds to win "
-msgstr ""
+msgstr "{roundsToWin} جیتنے کو چالیں"
 
 #. placeholder {0}: staticGameConfig.battle.roundsToWin
 #: src/components/_military/battle/RoundScore.tsx:50
@@ -188,7 +188,7 @@ msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1856
 msgid "<0/> bought your {assetLabel}!"
-msgstr ""
+msgstr "<نے آپ سے خریدا ہے </0 {assetLabel}"
 
 #. placeholder {0}: data.bannerTitle ? ` "${data.bannerTitle}"` : ''
 #: src/components/_user/notification/notification.frontConfig.tsx:1503
@@ -212,7 +212,7 @@ msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1588
 msgid "<0/> cancelled the contract."
-msgstr ""
+msgstr "<0/> نے معاہدہ منسوخ کر دیا"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:772
 msgid "<0/> commented on your article <1/>"
@@ -220,7 +220,7 @@ msgstr "<0/> نے آپ کے آرٹکل <1/> پر سندیس لکھا"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1563
 msgid "<0/> completed a contract, you earned <1/>"
-msgstr ""
+msgstr "<1/> نے معاہدہ پورا کیا </0> ,آپ نے کمائے"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:665
 msgid "<0/> conquered the region in <1/>"
@@ -228,7 +228,7 @@ msgstr "<0/> نے <1/> کا یہ علاقہ فتح کیا"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:82
 msgid "<0/> created the conversation"
-msgstr ""
+msgstr "<0/> نے گفتگو تخلیق کی"
 
 #: src/components/_political/event/event.frontConfig.tsx:174
 msgid "<0/> declared war on <1/>"
@@ -250,7 +250,7 @@ msgstr ""
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:150
 msgid "<0/> ended <1/>"
-msgstr ""
+msgstr "<0/> <1/> نے ختم کیا"
 
 #: src/components/_political/event/event.frontConfig.tsx:142
 msgid "<0/> financed a resistance war for <1/> in <2/>"
@@ -270,7 +270,7 @@ msgstr "<0/> gifted a sub to <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1030
 msgid "<0/> gifted you a premium subscription!"
-msgstr "<0/> gifted you a premium subscription!"
+msgstr "<0/> نے آپ کو اعلی رکنیت تحفہ دی!"
 
 #. placeholder {0}: data.bannerTitle
 #: src/components/_user/notification/notification.frontConfig.tsx:1472
@@ -288,7 +288,7 @@ msgstr "<0/> gifted you the skin pack \"{0}\"!"
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:227
 msgid "<0/> got fee back"
-msgstr ""
+msgstr "<0/> فیس واپس مل گئی"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1325
 msgid "<0/> has been created, it gonna start soon!"
@@ -325,7 +325,7 @@ msgstr "<0/> نے <1/> میں بغاوت کے لیے پیسا مہیا کیا ہ
 
 #: src/components/_political/event/event.frontConfig.tsx:311
 msgid "<0/> has formed an alliance with <1/>"
-msgstr ""
+msgstr "<0/> <1/> کے اتحادی بنے ہیں"
 
 #: src/components/_political/event/event.frontConfig.tsx:226
 msgid "<0/> has liberated <1/> and returned it to <2/>"
@@ -346,7 +346,7 @@ msgstr "<0/> نے <1/> میں مزاحمت کو کچل دیا ہے"
 #. placeholder {0}: data.money
 #: src/components/_political/event/event.frontConfig.tsx:253
 msgid "<0/> has transferred <1>{0}</1> to <2/>"
-msgstr "<0/> نے "
+msgstr ""
 
 #: src/components/_user/notification/notification.frontConfig.tsx:907
 msgid "<0/> is attacking <1/> in <2/>"
@@ -412,7 +412,7 @@ msgstr ""
 
 #: src/components/_political/event/event.frontConfig.tsx:241
 msgid "<0/> made peace with <1/>"
-msgstr "<0/> made peace with <1/>"
+msgstr "<0/> <1/> کے مابین صلح ہو گئی ہے"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1209
 msgid "<0/> mentioned you in <1/><2/>"
@@ -420,7 +420,7 @@ msgstr ""
 
 #: src/components/_military/mercenaryContract/MercenaryContractItemContent.tsx:221
 msgid "<0/> paid fee"
-msgstr ""
+msgstr "<0/> نے فیس ادا کی"
 
 #: src/components/_military/war/WarItem.tsx:115
 msgid "<0/> Priority ends in <1/>"
@@ -428,30 +428,30 @@ msgstr "<0/> Priority ends in <1/>"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:124
 msgid "<0/> proposed a new law: <1/>"
-msgstr ""
+msgstr "<0/> <1/> : نے نیا قانون پیش کیا"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:741
 msgid "<0/> published a new article"
-msgstr "<0/> published a new article"
+msgstr "<0/> نے نیا مضمون نشر کیا"
 
 #. placeholder {0}: data.level
 #: src/components/_user/notification/notification.frontConfig.tsx:1194
 msgid "<0/> reached level {0}!"
-msgstr "<0/> reached level {0}!"
+msgstr "<0/> {0}!نے درجہ حاصل کیا"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:559
 msgid "<0/> referred you to the game."
-msgstr "<0/> referred you to the game."
+msgstr "<0/> نے آپ کو گیم کا حوالہ دیا"
 
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
 #: src/components/_user/notification/notification.frontConfig.tsx:865
 msgid "<0/> responded to your message {0}"
-msgstr "<0/> responded to your message {0}"
+msgstr "<0/> نے آپ کے پیغام کا جواب دیا {0}"
 
 #. placeholder {0}: data.messageId && <MessageItemById messageId={data.messageId} />
 #: src/components/_user/notification/notification.frontConfig.tsx:856
 msgid "<0/> responded to your message in <1/>{0}"
-msgstr ""
+msgstr "<0/> نے یہاں آپ کے پیغام کا جواب دیا <1/>{0}"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:141
 msgid "<0/> started, vote for your favorite candidate"
